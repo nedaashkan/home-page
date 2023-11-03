@@ -5,6 +5,33 @@ import "./ImageSlider.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
+let HeaderImageData = [
+  {
+    img: "/headerimgs/1.png",
+    alt: "/",
+    link: "",
+  },
+  {
+    img: "/headerimgs/2.jpg",
+    alt: "/",
+    link: "",
+  },
+  {
+    img: "/headerimgs/3.jpg",
+    alt: "/",
+    link: "",
+  },
+  {
+    img: "/headerimgs/4.jpg",
+    alt: "/",
+    link: "",
+  },
+  {
+    img: "/headerimgs/5.jpg",
+    alt: "/",
+    link: "",
+  },
+];
 export default function ImageSlider() {
   return (
     <Swiper
@@ -21,32 +48,20 @@ export default function ImageSlider() {
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
+      {/* <div className="col-12">
+        <SwiperSlide>
+          <img src={image.img} alt={image.alt} className="img-fluid" />
+        </SwiperSlide>
+      </div> */}
+      ;
       <div className="row">
-        <div className="col-12">
-          <SwiperSlide>
-            <img src="/headerimgs/1.png" alt="/" className="img-fluid col" />
-          </SwiperSlide>
-        </div>
-        <div className="col-12">
-          <SwiperSlide>
-            <img src="/headerimgs/1.png" alt="/" className="img-fluid col" />
-          </SwiperSlide>
-        </div>
-        <div className="col-12">
-          <SwiperSlide>
-            <img src="/headerimgs/1.png" alt="/" className="img-fluid col" />
-          </SwiperSlide>
-        </div>
-        <div className="col-12">
-          <SwiperSlide>
-            <img src="/headerimgs/1.png" alt="/" className="img-fluid col" />
-          </SwiperSlide>
-        </div>
-        <div className="col-12">
-          <SwiperSlide>
-            <img src="/headerimgs/1.png" alt="/" className="img-fluid col" />
-          </SwiperSlide>
-        </div>
+        {HeaderImageData.map((img) => {
+          <div className="col-12">
+            <SwiperSlide>
+              <img src={img.img} alt={img.alt} className="img-fluid" />
+            </SwiperSlide>
+          </div>;
+        })}
       </div>
     </Swiper>
   );
