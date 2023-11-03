@@ -1,11 +1,5 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
+import React from "react";
 import "./LogoSlider.css";
-// import "~slick-carousel/slick/slick.css";
-// import "~slick-carousel/slick/slick-theme.css";
-
-// link of react-slick
-// https://react-slick.neostack.com/docs/example/multiple-items
 let logoData = [
   {
     img: "/logos/psn.png",
@@ -50,9 +44,7 @@ export default function LogoSlider() {
       <div class="row gx-lg-0 mt-lg-4 d-lg-flex justify-content-lg-evenly">
         {logoData.map((logo) => (
           <div class="col-lg-1">
-            <a href={logo.link}>
-              <img src={logo.img} alt={logo.alt} className="w-100" />
-            </a>
+            <img src={logo.img} alt={logo.alt} className="w-100" />
           </div>
         ))}
       </div>
