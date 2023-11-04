@@ -16,9 +16,9 @@ function App() {
         <LogoSlider />
         <ButtonSection />
         <ImageSection />
-        {/* <ClothingAccessories /> */}
-        {/* <ActionFigures /> */}
-        {/* <Footer /> */}
+        <ClothingAccessories />
+        <ActionFigures />
+        <Footer />
       </div>
     </div>
   );
