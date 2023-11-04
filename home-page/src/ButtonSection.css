@@ -1,6 +1,6 @@
 .btn-box button {
   border: 1px solid var(--light-blue);
-  font-size: 0.5rem;
+  font-size: 1.3rem;
 }
 
 .physical-btn {
@@ -33,13 +33,4 @@
 }
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  .btn-box button {
-    border: 0.5px solid var(--light-blue);
-  }
-  .physical-btn {
-    border-radius: 1px 0 0 1px;
-  }
-  .digital-btn {
-    border-radius: 0 1px 1px 0;
-  }
 }

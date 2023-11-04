@@ -1,7 +1,7 @@
 :root {
   --black: black;
   --light-blue: #00d5ff;
-  /* font size ro ham be rem benevis */
+  font-size: 1rem;
 }
 * {
   margin: 0;
@@ -10,4 +10,24 @@
 }
 body {
   background-color: var(--black);
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  :root {
+    font-size: 1.1rem;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  :root {
+    font-size: 0.8rem;
+  }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  :root {
+    font-size: 0.5rem;
+  }
 }
