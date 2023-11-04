@@ -1,0 +1,35 @@
+.action-figures-box h1 {
+  color: #e6e6e6;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.action-figures-box p {
+  color: #e6e6e6;
+  font-family: inherit;
+  font-size: 0.9rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.look-all-btn {
+  background-color: #000000;
+  border: 1px solid var(--light-blue);
+  color: #e6e6e6;
+  /* padding: 0.2em 0.5em;
+  font-size: 0.9rem; */
+  padding: 0.1em 0.4em;
+  font-size: 1.1rem;
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}

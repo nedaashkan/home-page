@@ -1,15 +1,13 @@
 :root {
   --black: black;
   --light-blue: #00d5ff;
+  /* font size ro ham be rem benevis */
 }
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: var(--black); */
 }
-
-.swiper {
-  width: 100%;
-  height: 100%;
+body {
+  background-color: var(--black);
 }
