@@ -4,7 +4,7 @@ import "./ActionFigures.css";
 export default function ActionFigures() {
   return (
     <div className="ActionFigures">
-      <div className="row gx-1 gx-md-2 gx-lg-2 mt-3 mt-md-5 mt-lg-5 d-flex justify-content-center action-figures-box">
+      <div className="row gx-1 gx-md-2 gx-lg-2 mt-5 mt-md-5 mt-lg-5 d-flex justify-content-center action-figures-box">
         <div className="col-2 col-md-2 col-lg-2">
           <img src="./ActionFigures/Ellipse 17.png" alt="/" className="w-100" />
         </div>
